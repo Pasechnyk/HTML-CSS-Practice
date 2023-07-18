@@ -4,28 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Practice 2a</title>
-    <style>
-        body {
-            font-family:Arial, Helvetica, sans-serif;
-            width: 75%;
-            margin: auto;
-        }
-        .header {
-            text-transform: uppercase;
-            color:white;
-            background-color:dimgrey;
-            display: block;
-            text-align: center;
-            padding: 10px;
-        }
-
-        .border-header {
-            text-transform: uppercase;
-            color: darkslategrey;
-            border-left: solid;
-            padding-left: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -49,8 +28,8 @@
 
     <div style="height: 1px; background-color:lightslategrey"></div>
 
-    <p>
-        Трохи історії: коло кольорів винайшов Ісаак Ньютон. Обгрунтувавши теорію світла та квітів у 1666р.
+    <p class="grey-paragraph">
+        <strong>Трохи історії</strong>: коло кольорів винайшов <strong>Ісаак Ньютон</strong>. Обгрунтувавши теорію світла та квітів у 1666р.
         Саме вона лягла в основу становлення та розвитку сучасної оптики, малою та складовою якої є web-дизайн.
         Ньютон за допомогою тригранної скляної призми розклав біле світло на сім кольорів (у спектр),
         тим самим довівши його складність (явище дисперсії), відкрив хроматичну аберацію.
@@ -59,7 +38,7 @@
     <p>
         Коло кольорів є неодмінним атрибутом багатьох дизайнерів та художників по всьому світу.
         Це ідеальний доказ теорії, що геніальне завжди просто. Коло дозволяє вам вибрати кольори, які гармоніювали б разом.
-        Він складається з 6 основних кольорів: червоний, помаранчевий, жовтий, зелений, синій, фіолетовий та додаткових кольорів.
+        Він складається з <strong>6 основних кольорів</strong>: червоний, помаранчевий, жовтий, зелений, синій, фіолетовий та додаткових кольорів.
     </p>
 
     <p>
@@ -73,21 +52,27 @@
     </div>
 
     <h3 class="border-header">
-        Основні кольори Їх три
+        Основні кольори <sup>Їх три</sup>
     </h3>
 
-    <p>
-        Є три основні кольори: червоний (#ff0000 у HTML або #F00 у CSS), жовтий (#FFFF00 у HTML або #ff0 у CSS) та синій (#0000FF у HTML або #00f у CSS).
+    <p style="line-height: 25px;">
+        Є три основні кольори: <span class="red">червоний</span> (<span class="red">#ff0000</span> у HTML або <span class="red">#F00</span> у CSS),
+        <span class="yellow">жовтий</span> (<span class="yellow">#FFFF00</span> у HTML або <span class="yellow">#ff0</span> у CSS)
+        та <span class="blue">синій</span> (<span class="blue">#0000FF</span> у HTML або <span class="blue">#00f</span> у CSS).
         Не можна їх одержати шляхом змішування інших кольорів. Додаткові кольори можуть бути сформовані шляхом поєднання цих трьох кольорів.
     </p>
 
     <h3 class="border-header">
-        Складові кольори Їх теж три
+        Складові кольори <sup>Їх теж три</sup>
     </h3>
 
-    <p>
-        Є також три основні: помаранчевий (#ff9900 у HTML або #F90 у CSS), зелений (#00FF00 у HTML або #0f0 у CSS) та фіолетовий (#FF00FF у HTML або #f0f у CSS).
-        Ви можете отримати їх шляхом змішування червоного та жовтого (помаранчевого), жовтого та синього (зелений) та синього та червоного (фіолетовий).
+    <p style="line-height: 25px;">
+        Є також три основні: <span class="orange">помаранчевий</span> (<span class="orange">#ff9900</span> у HTML або <span class="orange">#F90</span> у CSS),
+        <span class="green">зелений</span> (<span class="green">#00FF00</span> у HTML або <span class="green">#0f0</span> у CSS)
+        та <span class="purple">фіолетовий</span> (<span class="purple">#FF00FF</span> у HTML або <span class="purple">#f0f</span> у CSS).
+        Ви можете отримати їх шляхом змішування <span class="red">червоного</span> та <span class="yellow">жовтого</span> (<span class="orange">помаранчевого</span>),
+        <span class="yellow">жовтого</span> та <span class="blue">синього</span> (<span class="green">зелений</span>)
+        та <span class="blue">синього</span> та <span class="red">червоного</span> (<span class="purple">фіолетовий</span>).
     </p>
 
     <h3 class="border-header">
@@ -102,8 +87,9 @@
         Додаткові кольори
     </h3>
 
-    <p>
-        Додаткові кольори розташовані навпроти один одного на колірному колі: червоний і зелений, синій і помаранчевий, фіолетовий і жовтий.
+    <p style="line-height: 25px;">
+        Додаткові кольори розташовані навпроти один одного на колірному колі: <span class="red">червоний</span> і <span class="green">зелений</span>,
+        <span class="blue">синій</span> і <span class="orange">помаранчевий</span>, <span class="purple">фіолетовий</span> і <span class="yellow">жовтий</span>.
         У поєднанні один з одним, вони становлять разючий контраст. Такі поєднання зазвичай використовуються для виділення деяких елементів на веб-сайті.
     </p>
 

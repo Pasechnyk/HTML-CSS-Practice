@@ -1,0 +1,63 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 75%;
+    margin: auto;
+}
+sup {
+    text-decoration: underline;
+}
+.header {
+    text-transform: uppercase;
+    color:white;
+    background-color:dimgrey;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.border-header {
+    text-transform: uppercase;
+    color: dimgrey;
+    border-left: solid;
+    padding-left: 10px;
+}
+.grey-paragraph {
+    color: lightslategrey;
+    padding: 5px 25px 5px 25px;
+    font-style: italic;
+}
+.red {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 3px;
+}
+.orange {
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    padding: 3px;
+}
+.yellow {
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+    padding: 3px;
+}
+.green {
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    padding: 3px;
+}
+.blue {
+    background-color:blue;
+    color: white;
+    font-weight: bolder;
+    padding: 3px;
+}
+.purple {
+    background-color:purple;
+    color: white;
+    font-weight: bolder;
+    padding: 3px;
+}
