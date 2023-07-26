@@ -1,0 +1,25 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    background-color:whitesmoke;
+    display: block;
+    width: fit-content;
+    padding: 5px 30px 25px 30px;
+    margin: auto;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+span.examples {
+    color:dimgrey;
+}
+
+span.synonyms {
+    color:darkblue;
+}
