@@ -1,0 +1,26 @@
+nav {
+    background-color:whitesmoke;
+    display: block;
+    width: fit-content;
+    padding: 5px 20px;
+    margin: auto;
+}
+
+.heart {
+    transition: all 2s;
+}
+
+.heart:hover {
+    animation: increase 2s 0s normal forwards;
+}
+
+@keyframes increase {
+    from {
+        transform: scale(1);
+        filter: grayscale(0%);
+    }
+    to {
+        transform: scale(0.5);
+        filter: grayscale(100%);
+    }
+}

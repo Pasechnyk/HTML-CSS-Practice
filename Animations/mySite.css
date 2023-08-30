@@ -1,0 +1,43 @@
+body {
+    background-color:cornsilk;
+    color: black;
+    margin: 25px;
+    padding: 25px;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+div {
+    
+    margin: 20px;
+    width: fit-content;
+    height: 800px;
+}
+
+img {
+    display: inline-block;
+    position: relative;
+
+    transition: ease-in-out;
+    animation: margin-top 2s linear 0s reverse both;
+}
+
+.calc {
+    top: 135px;
+    left: 60px;
+    transform: scale(0.7) rotate(320deg);
+}
+
+@keyframes margin-top {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 1000px;
+    }
+}
