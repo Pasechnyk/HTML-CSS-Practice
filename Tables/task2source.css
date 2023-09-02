@@ -1,0 +1,41 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:whitesmoke;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+
+    position: absolute;
+    display: inline;
+}
+
+ul {
+    background-color: grey;
+    width: 300px;
+    padding: 0;
+    margin: auto;
+
+    list-style: none;
+}
+
+li {
+    position: relative;
+    height: 80px;
+}
+
+li:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+
+    margin-top: -20px;
+}
