@@ -45,21 +45,21 @@ img {
     top: 5px;
     right: 40px;
     transform: rotate(15deg);
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 
 .pallete {
     top: 145px;
     right: 60px;
-    transform: scale(0.7) rotate(35deg);
-    animation-delay: 2s;
+    transform: scale(0.7) rotate(225deg);
+    animation-delay: 1.5s;
 }
 
 .pencil {
     top: 130px;
     transition: transform 0s ease;
     transform: rotate(90deg);
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 
 @keyframes margin-top {
