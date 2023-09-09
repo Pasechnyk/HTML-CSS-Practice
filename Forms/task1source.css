@@ -1,0 +1,125 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+h2 {
+    color: black;
+}
+
+div.form {
+    align-self: center;
+    width: 300px;
+    background-color: rgb(230, 229, 229);
+    box-shadow:
+    0px 0px 0.6px rgba(0, 0, 0, 0.143),
+    0px 0px 1.8px rgba(0, 0, 0, 0.205),
+    0px 0px 4.2px rgba(0, 0, 0, 0.267),
+    0px 0px 14px rgba(0, 0, 0, 0.41);
+}
+
+form {
+    background-color: rgb(228, 80, 60);
+    margin-top: 10px;
+    padding: 10px;
+
+    display: flex;
+    align-self: center;
+    width: 620px;
+    height: 450px;
+    flex-direction: column;
+    gap: 6px;
+
+    margin: auto;
+    margin-top: 50px;
+    padding: 100px 0 0 0 ;
+}
+
+input {
+    text-align: center;
+    border: transparent;
+    width: 250px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+input::placeholder {
+    color: rgb(196, 196, 196);
+}
+
+button.login {
+    color: white;
+    width: 250px;
+    background-color: rgb(58, 156, 71);
+    border: transparent;
+    border-bottom: 3px solid rgb(30, 90, 30);
+    height: 35px;
+    margin: 10px;
+}
+
+label {
+    display: block;
+    color: rgb(228, 80, 60);
+    font-size: small;
+    font-weight: 500;
+    margin: 10px;
+}
+
+img {
+    width: 25px;
+    float: inline-start;
+    margin: 0 10px 10px 0;
+}
+
+span {
+    margin: 7px 30px 0 0;
+    float: right; 
+}
+
+.btn {
+    display: flex;
+    align-content: center;
+}
+
+.socials {
+    display: flex;
+    font-size: 17px;
+    align-items: center;
+}
+
+.face {
+    color: white;
+    font-size: smaller;
+    background-color: rgb(27, 63, 180);
+    border: transparent;
+    box-shadow:
+    0px 0px 0.6px rgba(0, 0, 0, 0.143),
+    0px 0px 1.8px rgba(0, 0, 0, 0.205),
+    0px 0px 4.2px rgba(0, 0, 0, 0.267),
+    0px 0px 14px rgba(0, 0, 0, 0.41);
+    height: 38px;
+    width: 150px;
+    align-self: auto;
+    padding: 5px;
+    margin: 10px 10px 10px 150px;
+}
+
+.twit {
+    color: white;
+    font-size: smaller;
+    background-color: rgb(32, 173, 224);
+    border: transparent;
+    box-shadow:
+    0px 0px 0.6px rgba(0, 0, 0, 0.143),
+    0px 0px 1.8px rgba(0, 0, 0, 0.205),
+    0px 0px 4.2px rgba(0, 0, 0, 0.267),
+    0px 0px 14px rgba(0, 0, 0, 0.41);
+    height: 38px;
+    width: 150px;
+    margin: 10px;
+    align-self: auto;
+    padding: 5px;
+}
